@@ -1,0 +1,17 @@
+pandas
+numpy
+matplotlib
+seaborn
+jupyter
+notebook
+
+sqlalchemy
+pyodbc
+
+networkx
+
+scikit-learn
+
+plotly
+
+python-dotenv

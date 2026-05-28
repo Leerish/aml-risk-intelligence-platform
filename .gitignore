@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+
+# Conda
+.envs/
+.conda/
+
+# VSCode
+.vscode/
+
+# Data
+data/raw/
+
+# Power BI

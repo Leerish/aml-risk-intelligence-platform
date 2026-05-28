@@ -1,0 +1,289 @@
+# AML Risk Intelligence Platform
+
+Enterprise-style Anti-Money Laundering (AML) analytics platform built using Python, SQL Server, and Power BI to simulate customer risk scoring, suspicious transaction monitoring, alert prioritization, and fraud trend analysis on large-scale banking transaction data.
+
+---
+
+# Overview
+
+Financial institutions process millions of transactions daily, making it difficult for compliance teams to efficiently identify suspicious activity and prioritize investigations.
+
+This project simulates a real-world AML analytics workflow by transforming raw transactional data into actionable intelligence through:
+
+* Customer risk scoring
+* Alert prioritization
+* Transaction intelligence analytics
+* Fraud exposure monitoring
+* Investigator-focused dashboards
+* Trend and anomaly analysis
+
+The platform combines Python-based analytics, SQL Server data warehousing, and Power BI dashboards to create an end-to-end AML intelligence solution.
+
+---
+
+# Key Features
+
+* Customer Risk Scoring Engine
+* Alert Prioritization System
+* High-Risk Transaction Detection
+* Fraud Exposure Analytics
+* Transaction Intelligence Monitoring
+* Daily Fraud Trend Analysis
+* SQL Server Analytics Warehouse
+* Interactive Power BI Dashboards
+
+---
+
+# Architecture
+
+```text
+Raw Transaction Data (PaySim Dataset)
+                ↓
+        Python + Pandas Analytics
+                ↓
+      Feature Engineering & Risk Scoring
+                ↓
+        SQL Server Analytics Warehouse
+                ↓
+         Power BI Intelligence Dashboards
+```
+
+---
+
+# Tech Stack
+
+| Layer                | Technology           |
+| -------------------- | -------------------- |
+| Programming Language | Python               |
+| Data Processing      | Pandas               |
+| Database             | Microsoft SQL Server |
+| SQL Connectivity     | SQLAlchemy + PyODBC  |
+| Visualization        | Power BI             |
+| Environment          | Conda                |
+
+---
+
+# Dataset
+
+This project uses the **PaySim Financial Transaction Dataset**, a synthetic mobile money transaction dataset designed for fraud detection and financial analytics research.
+
+Dataset characteristics:
+
+* 1M+ financial transactions analyzed
+* Multiple transaction types
+* Fraud-labelled transactions
+* Customer transaction behavior simulation
+* Time-series transaction activity
+
+---
+
+# Analytics Pipeline
+
+## 1. Customer Risk Profiling
+
+Built customer-level analytics metrics including:
+
+* Total transaction volume
+* Transaction frequency
+* Average transaction amount
+* Fraud history
+* Fraud rate
+* Risk scoring and categorization
+
+Generated analytics table:
+
+```text
+CustomerRisk
+```
+
+---
+
+## 2. Alert Prioritization
+
+Designed an investigator-focused alert system to prioritize suspicious customers requiring manual review.
+
+Generated analytics table:
+
+```text
+AlertQueue
+```
+
+---
+
+## 3. Transaction Intelligence
+
+Analyzed fraud concentration across transaction channels and generated transaction-level risk analytics.
+
+Generated analytics table:
+
+```text
+TransactionSummary
+```
+
+---
+
+## 4. High-Risk Transaction Monitoring
+
+Identified suspicious high-value transactions and created transaction-level risk scoring logic.
+
+Generated analytics table:
+
+```text
+HighRiskTransactions
+```
+
+---
+
+## 5. Fraud Trend Monitoring
+
+Built time-series fraud analytics for anomaly detection and suspicious activity trend monitoring.
+
+Generated analytics table:
+
+```text
+DailyTransactionMetrics
+```
+
+---
+
+# SQL Analytics Warehouse
+
+The project uses SQL Server as an analytics warehouse layer for storing processed AML intelligence tables.
+
+Core warehouse tables:
+
+```text
+CustomerRisk
+AlertQueue
+TransactionSummary
+HighRiskTransactions
+DailyTransactionMetrics
+```
+
+---
+
+# Power BI Dashboards
+
+## Executive AML Overview
+
+High-level compliance monitoring dashboard including:
+
+* Fraud exposure KPIs
+* Risk distribution analysis
+* Fraud trend monitoring
+* Transaction exposure insights
+
+---
+
+## Investigator Dashboard
+
+Operational dashboard for fraud investigation workflows including:
+
+* Alert queue prioritization
+* Suspicious account monitoring
+* Critical transaction tracking
+* Investigation-focused analytics
+
+---
+
+## Transaction Intelligence Dashboard
+
+Transaction-focused fraud analytics including:
+
+* Fraud rate by transaction type
+* Exposure concentration
+* High-risk transaction analysis
+* Transaction surveillance metrics
+
+---
+
+## Trend Monitoring Dashboard
+
+Time-series AML analytics including:
+
+* Fraud spikes
+* Alert trends
+* Suspicious activity monitoring
+* Fraud exposure over time
+
+---
+
+# Key Insights
+
+* TRANSFER transactions exhibited the highest fraud rate across all transaction channels.
+* Fraudulent activity represented only ~0.11% of total transactions, reflecting highly imbalanced real-world financial datasets.
+* Alert prioritization reduced investigation scope to less than 0.2% of customers.
+* Fraud exposure was heavily concentrated within high-value transfer and cash-out transactions.
+* Risk scoring enabled operational prioritization of suspicious entities and transactions.
+
+---
+
+# Repository Structure
+
+```text
+AML-Risk-Intelligence-Platform/
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── notebooks/
+│   └──AML.ipynb
+│   
+│   
+│   
+│
+├── sql/
+│   └──AML.sql
+│   
+│   
+│   
+│
+├── dashboards/
+│   ├── screenshots/
+│   └── AML_Risk_Intelligence.pbix
+│
+├── src/
+│   └── data_to_SQL.py
+│   
+│   
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
+
+---
+
+# Future Improvements
+
+Potential future enhancements include:
+
+* Real-time streaming analytics
+* Machine learning-based anomaly detection
+* Graph/network fraud analysis
+* Azure cloud deployment
+* Automated suspicious activity report (SAR) generation
+* Real-time alert orchestration
+* Investigator case management workflows
+
+---
+
+# Business Impact
+
+This project demonstrates how AML analytics platforms can:
+
+* Reduce investigation workload
+* Prioritize suspicious activity
+* Improve fraud visibility
+* Enable operational intelligence
+* Support compliance monitoring workflows
+
+---
+
+# Author
+
+Leerish Arvind
+
+MSc Data Science & Analytics
+
