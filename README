@@ -36,7 +36,7 @@ The platform combines Python-based analytics, SQL Server data warehousing, and P
 
 # Architecture
 
-```text
+```
 Raw Transaction Data (PaySim Dataset)
                 ↓
         Python + Pandas Analytics
@@ -92,7 +92,7 @@ Built customer-level analytics metrics including:
 
 Generated analytics table:
 
-```text
+```
 CustomerRisk
 ```
 
@@ -104,7 +104,7 @@ Designed an investigator-focused alert system to prioritize suspicious customers
 
 Generated analytics table:
 
-```text
+```
 AlertQueue
 ```
 
@@ -116,7 +116,7 @@ Analyzed fraud concentration across transaction channels and generated transacti
 
 Generated analytics table:
 
-```text
+```
 TransactionSummary
 ```
 
@@ -128,7 +128,7 @@ Identified suspicious high-value transactions and created transaction-level risk
 
 Generated analytics table:
 
-```text
+``` 
 HighRiskTransactions
 ```
 
@@ -140,7 +140,7 @@ Built time-series fraud analytics for anomaly detection and suspicious activity 
 
 Generated analytics table:
 
-```text
+``` 
 DailyTransactionMetrics
 ```
 
@@ -152,7 +152,7 @@ The project uses SQL Server as an analytics warehouse layer for storing processe
 
 Core warehouse tables:
 
-```text
+``` 
 CustomerRisk
 AlertQueue
 TransactionSummary
@@ -220,7 +220,7 @@ Time-series AML analytics including:
 
 # Repository Structure
 
-```text
+``` 
 AML-Risk-Intelligence-Platform/
 │
 ├── data/
