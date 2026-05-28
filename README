@@ -72,8 +72,6 @@ PaySim Financial Transaction Dataset
 | SQL Connectivity | SQLAlchemy + PyODBC |
 | Visualization | Power BI |
 | Environment | Conda |
-| IDE | VS Code |
-| Version Control | Git & GitHub |
 
 ---
 
@@ -210,32 +208,6 @@ Time-series AML analytics including:
 
 ---
 
-## 📸 Dashboard Screenshots
-
-### Executive AML Overview
-
-![Executive Dashboard](dashboards/screenshots/executive_dashboard.png)
-
----
-
-### Investigator Dashboard
-
-![Investigator Dashboard](dashboards/screenshots/investigator_dashboard.png)
-
----
-
-### Transaction Intelligence Dashboard
-
-![Transaction Dashboard](dashboards/screenshots/transaction_dashboard.png)
-
----
-
-### Trend Monitoring Dashboard
-
-![Trend Dashboard](dashboards/screenshots/trend_dashboard.png)
-
----
-
 ## 📌 Key Insights
 
 - TRANSFER transactions exhibited the highest fraud rate across all transaction channels.
@@ -280,7 +252,7 @@ AML-Risk-Intelligence-Platform/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/aml-risk-intelligence-platform.git
+git clone https://github.com/leerish/aml-risk-intelligence-platform.git
 ```
 
 ### 2. Create a conda environment
@@ -348,5 +320,3 @@ This project demonstrates how AML analytics platforms can:
 ## 👨‍💻 Author
 
 **Leerish Arvind**  
-MSc Data Science & Analytics  
-Machine Learning | Risk Analytics | Business Intelligence | AI Systems
