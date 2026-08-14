@@ -1,3 +1,6 @@
+================================================
+FILE: README
+================================================
 # AML Risk Intelligence Platform
 
 Enterprise-style Anti-Money Laundering (AML) analytics platform built using Python, SQL Server, and Power BI to simulate customer risk scoring, suspicious transaction monitoring, alert prioritization, and fraud trend analysis on large-scale banking transaction data.
